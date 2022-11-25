@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif; /*Tipo del letra Roboto*/
+  font-size: 14px;
+}
+
+.caja1{
+    width: 48px;
+    height: 32px;
+    background-color: #F7FAFC;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.caja2{
+    width: 64px;
+    height: 32px;
+    background-color: #EDF2F7;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.caja3{
+    width: 80px;
+    height: 32px;
+    background-color: #E2E8F0;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.caja4{
+    width: 96px;
+    height: 32px;
+    background-color: #CBD5E0;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.caja5{
+    width: 112px;
+    height: 32px;
+    background-color: #A0AEC0;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.caja6{
+    width: 128px;
+    height: 32px;
+    background-color: #718096;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.caja7{
+    width: 144px;
+    height: 32px;
+    background-color: #4A5568;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.caja8{
+    width: 160px;
+    height: 32px;
+    background-color: #2D3748;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.caja9{
+    width: 176px;
+    height: 32px;
+    background-color: #1A202C;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.box1{
+    width: 80px;
+    height: 32px;
+    background-color: #FFF5F5;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.box2{
+    width: 80px;
+    height: 32px;
+    background-color: #FED7D7;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+.box3{
+    width: 80px;
+    height: 32px;
+    background-color: #FEB2B2;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 24px;
+}
+.box4{
+    width: 80px;
+    height: 32px;
+    background-color: #FC8181;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 32px;
+}
+.box5{
+    width: 80px;
+    height: 32px;
+    background-color: #F56565;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 40px;
+}
+.box6{
+    width: 80px;
+    height: 32px;
+    background-color: #E53E3E;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 48px;
+}
+.box7{
+    width: 80px;
+    height: 32px;
+    background-color: #C53030;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 56px;
+}
+.box8{
+    width: 80px;
+    height: 32px;
+    background-color: #9B2C2C;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 64px;
+}
+.box9{
+    width: 80px;
+    height: 32px;
+    background-color: #742A2A;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 72px;
+}
+.contenedor1{
+    width: 176px;
+    height: 176px;
+    background-color: #2A4365;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor2{
+    width: 160px;
+    height: 160px;
+    background-color: #2C5282;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor3{
+    width: 144px;
+    height: 144px;
+    background-color: #2B6CB0;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor4{
+    width: 128px;
+    height: 128px;
+    background-color: #3182CE;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor5{
+    width: 112px;
+    height: 112px;
+    background-color: #4299E1;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor6{
+    width: 96px;
+    height: 96px;
+    background-color: #63B3ED;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor7{
+    width: 80px;
+    height: 80px;
+    background-color: #90CDF4;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor8{
+    width: 64px;
+    height: 64px;
+    background-color: #BEE3F8;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor9{
+    width: 48px;
+    height: 48px;
+    background-color: #EBF8FF;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+body{
+    
+    background-color: #fff;
+}
+
+
+
+h1{
+    color: #ffc365;
+    background-color:#277BC0 ;
+    border: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+div{
+    color: #ffc365;
+    background-color:#277BC0 ;
+    padding: 10px;
+
+}

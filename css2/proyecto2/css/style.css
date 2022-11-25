@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FDEEDC;
+}
+section{
+    width: 80%;
+    height: 100vh;
+    background-color: #6998AB;
+    margin: auto;
+    display: flex;/*activa las propiedades flexbox*/
+    flex-direction: column;/*direccion de los item*/
+    flex-wrap: wrap;/*evita el desbordamiento*/
+    align-items: center;/*alineacion eje principal*/
+    justify-content: center;/*alineacion eje secundario*/
+    
+}
+section article{
+    width: 80%;
+    height: 150px;
+    background-color: #1A374D;
+    color: #000;
+    margin: auto;
+    display: flex;/*activa las propiedades flexbox*/
+    flex-direction: row;/*direccion de los item*/
+    flex-wrap: wrap;/*evita el desbordamiento*/
+    align-items: center;/*alineacion eje principal*/
+    justify-content: center;/*alineacion eje secundario*/
+    margin: 5px;
+
+}
+
+section article .item{
+    width: 32%;
+    height: 80%;
+    background-color: #B1D0E0;
+    color: #000;
+    margin: auto;
+    
+}

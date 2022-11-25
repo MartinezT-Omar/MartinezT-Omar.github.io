@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF5F7;
+
+}
+header{
+    background-color: #cbd5e0;
+    padding: 15px;
+}
+h1{
+    background-color: #718096;
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+
+
+}
+.enlace-blue{
+    text-decoration:none;
+    color: #4299e1;
+    margin: 8px;
+}
+.espacio{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.caja1{
+    width:  64px;               /*ancho*/
+    height: 64px;              /*alto*/
+    background-color: #ebf8ff; /*color de fondo*/
+    color: #fff;
+    margin: 8px;
+    position: static;
+    left: 48px;
+}
+.caja2{
+    width:  64px;               /*ancho*/
+    height: 64px;              /*alto*/
+    background-color: #ebf8ff; /*color de fondo*/
+    color: #fff;
+    margin: 8px;
+    position: relative;
+    left: 48px;
+    top: 48px;
+}
+.caja3{
+    width:  64px;               /*ancho*/
+    height: 64px;              /*alto*/
+    background-color: #ebf8ff; /*color de fondo*/
+    color: #fff;
+    margin: 8px;
+    position: absolute;
+    left: 80px;
+}
+.caja4{
+    width:  64px;               /*ancho*/
+    height: 64px;              /*alto*/
+    background-color: #ebf8ff; /*color de fondo*/
+    color: #fff;
+    margin: 8px;
+    position: fixed;
+    left: 200px;
+    top: px;
+}
+
+
+

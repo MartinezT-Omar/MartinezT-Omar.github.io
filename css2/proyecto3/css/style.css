@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2? family= Oswald & display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #dbecf4;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    height: 90vh;
+    background-color: #dbecf4;
+    margin: auto;
+}
+
+.container header{
+    background-color: #2c3242;
+    color: #F2F3F3;
+    padding: 50px;
+    text-align: center;
+}
+
+.container nav{
+    background-color: #51adc6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container nav a{
+    color: #020305;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    flex-grow: 1;
+}
+
+.container nav a:hover{
+    background-color: #66d6ea;
+}
+
+.container .main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .main aside{
+    background-color: #2c6078;
+    color: #E7E7EC;
+    padding: 20px;
+    flex: 30%;
+}
+
+.container .main aside h2{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container .main aside ul{
+    width: 100%;
+}
+
+.container .main aside ul li{
+    list-style: none;
+    padding: 5px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.container .main aside ul li a{
+    color: #E7E7EC;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.container .main aside ul li:hover{
+    background-color: #161D32;
+    border: 1px solid #161D32;
+    border-radius: 10px;
+}
+
+.container .main section{
+    background-color: #9ecae3;
+    padding: 20px;
+    flex: 70%;
+}
+
+footer{
+    background-color: #161D32;
+    color: #F2F3F3;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and (max-width:800px) {
+    .container nav{
+        flex-direction: column;
+    }
+    .container .main{
+        flex-direction: column;
+    }
+    
+}
